@@ -1,0 +1,20 @@
+.wishlist-section{
+    /* padding: 100px 3% 30px 3%; */
+    padding: 130px 3% 30px 3%;
+}
+
+/* WISHLIST TITLE */
+.wishlist-section .wishlist-title{
+    margin-bottom: 30px;
+}
+
+.wishlist-section .wishlist-title h1{
+    font-size: 32px
+}
+
+/* WISHLIST PRODUCT */
+.wishlist-section .wishlist-product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

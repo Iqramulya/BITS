@@ -1,0 +1,122 @@
+.navbar-section{
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 3%;
+}
+
+.navbar-container .navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-container .navbar-logo a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar-container .navbar-main-link ul{
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar-container .navbar-main-link a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar-container .navbar-main-link a:hover{
+    color: #25caac;
+}
+
+.navbar-container .navbar-icons-link{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-container .navbar-icons-link a{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.navbar-container .navbar-icons-link a:hover{
+    color: #bebebe;
+}
+
+.burger-button{
+    display: none;
+}
+
+.burger-button i {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+ /* @media (max-width: 768px) {
+    .navbar-main-link {
+      display: none; Sembunyikan menu utama
+    }
+  
+    .navbar-hamburger {
+      display: block; Tampilkan hamburger button
+    }
+  
+    .navbar-section.active .navbar-main-link {
+      display: block; Tampilkan menu utama saat hamburger button aktif
+    }
+  } */
+
+  @media (max-width: 768px) {
+    .navbar-main-link {
+        display: none;
+    }
+
+    .burger-button {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar-section.active .navbar-main-link {
+        display: block;
+    }
+
+    .navbar-section.active .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        position: absolute;
+        padding: 20px 0px;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        background-color: #000000;
+        z-index: 99;
+        transition: .3s ease-in-out;
+
+    }
+
+    .navbar-section.active .menu a {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media (max-width: 768px){
+        .navbar-container .navbar-icons-link{
+            gap: 20px;
+        }
+    }
+}

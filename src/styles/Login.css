@@ -1,0 +1,121 @@
+.login-section{
+    padding: 130px 3%;
+}
+
+.login-section .login-container{
+    border: 2px solid #ababab;
+    padding: 50px;
+    display: flex;
+}
+
+.login-section .login-container .content-left{
+    flex: 0 0 50%;
+    padding-right: 50px;
+}
+
+.login-container .content-left .login-form h1{
+    font-size: 40px;
+}
+
+.login-container .content-left .login-form .login-input{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-container .content-left .login-form .login-input input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-container .content-left .login-form .login-input button{
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container .content-left .login-form .option-label{
+    font-size: 18px;
+    color: #454545;
+}
+
+/* .login-container .content-left .login-form .login-google{
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 20px 0px;
+} */
+
+.login-container .content-left .login-form .login-google{
+    margin-top: 20px;
+    color: #000000;
+    width: 50%;
+    height: 50px;
+}
+
+.login-container .content-left .login-form .login-google p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.login-container .content-left .login-form .login-google img{
+    width: 25px;
+}
+
+.login-container .content-left .login-form .login-input button:hover{
+    color: #ababab;
+}
+
+.login-section .login-container .content-right{
+    flex: 0 0 50%;
+    border-left: 2px solid #ababab;
+    padding-left: 50px;
+}
+
+.login-container .content-right h1{
+    font-size: 40px;
+}
+
+.login-container .content-right p{
+    margin: 20px 0px;
+}
+
+.login-container .content-right button{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container .content-right button:hover{
+    color: #ababab;
+}
+
+.g-btn {
+    width: 100% !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 15px !important;
+  }
+  .g-btn > div,
+  .g-btn > div > svg {
+    width: 25px !important;
+    height: 38px !important;
+  }
+  

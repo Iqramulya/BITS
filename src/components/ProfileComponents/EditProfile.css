@@ -1,0 +1,131 @@
+/* EDIT PROFILE */
+.edit-profile-section{
+    padding: 130px 3%;
+}
+
+/* .change-password-section{
+    padding: 150px 3%;
+} */
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit-profile-section .edit-profile-wrapper .edit-profile-title h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-title .back-button button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-title .back-button button i{
+    font-size: 32px;
+}
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-title .back-button button p{
+    color: #000000;
+    font-size: 20px;
+}
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 30%;
+    border: 2px solid #ABABAB;
+}
+
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-input .edit-email-address, .edit-username, .edit-address, .edit-provinsi, .edit-kota, .edit-kecamatan, .edit-post-code, .edit-phone-number, .edit-date-of-birth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-input h3{
+    font-size: 20px;
+}
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-input input{
+    width: 500px;
+    /* border-bottom: 2px solid #000000; */
+    border: none;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #000000;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.edit-profile-section .edit-profile-wrapper .edit-profile-input span{
+    color: red;
+}
+
+.edit-profile-button-wrapper{
+    border: 2px solid #ABABAB;
+    border-top: none;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.edit-profile-button-wrapper .save-button{
+    padding: 15px 100px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .edit-profile-section .edit-profile-wrapper .edit-profile-input{
+        padding-right: 30px;
+    }
+
+    .edit-profile-section .edit-profile-wrapper .edit-profile-input h3{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .edit-profile-section .edit-profile-wrapper .edit-profile-input input{
+        width: 100%;
+    }
+
+    .edit-profile-input .edit-username{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edit-profile-input .edit-phone-number{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edit-profile-input .edit-email-address{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edit-profile-input .edit-address{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edit-profile-button-wrapper .save-button{
+        width: 100%;
+    }
+}

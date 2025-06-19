@@ -1,0 +1,42 @@
+.order-summary-detail .order-summary-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.order-summary-detail .order-summary-price-detail .subtotal{
+    border: 2px solid #ABABAB;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order-summary-detail .order-summary-price-detail .subtotal .subtotal-row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary-detail .order-summary-price-detail .subtotal .subtotal-row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary-detail .order-summary-price-detail .subtotal p{
+    font-size: 20px;
+    color: #000000;
+}
+
+.order-summary-detail .order-summary-price-detail .total{
+    border: 2px solid #ABABAB;
+    border-top: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary-detail .order-summary-price-detail .total h1{
+    font-size: 30px;
+    color: #000000;
+}

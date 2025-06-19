@@ -1,0 +1,65 @@
+section{
+    padding: 130px 3%;
+}
+
+.product-section-wrapper{
+
+}
+
+.product-section-wrapper .product-section-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-section-wrapper .product-section-title h1{
+    font-size: 32px;
+}
+
+.product-section-wrapper .product-section-title button{
+    background-color: #25CAAC;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.product-section-wrapper .product-section-title button i{
+    font-size: 20px;
+}
+
+.product-section-wrapper .product-table{
+    margin-top: 50px;
+}
+
+.product-section-wrapper .product-table .table{
+    text-align: left;
+    background-color: #000000;
+}
+
+.product-section-wrapper .product-table .table .thead th{
+    background-color: #25CAAC;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    /* width: 100%;
+    border-collapse: collapse; */
+}
+
+.product-section-wrapper .product-table .table td{
+    padding: 15px 50px;
+    background-color: #ededed;
+}
+
+/* .product-section-wrapper .product-table .table .thead .product-button{
+    background-color: ;
+} */
+
+.product-section-wrapper .product-table .table .tbody .action-button{
+    display: flex;
+    gap: 10px;
+}

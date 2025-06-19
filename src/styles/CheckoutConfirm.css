@@ -1,0 +1,175 @@
+.checkout-section{
+    padding: 130px 3%;
+}
+
+.checkout-section .checkout-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout-section .checkout-title h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.checkout-section .checkout-title .back-button button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.checkout-section .checkout-title .back-button button i{
+    font-size: 32px;
+}
+
+/* CONFIRM SECTION */
+.confirm-section{
+    display: flex;
+    border: 2px solid #ABABAB;
+    padding: 0px 30px;
+}
+
+.confirm-section .confirm-content-left{
+    flex: 0 0 60%;
+    padding: 30px 30px 30px 0px;
+    border-right: 2px solid #ABABAB;
+}
+
+.confirm-section .confirm-content-right{
+    flex: 0 0 40%;
+    padding: 30px 0px 30px 30px;
+
+}
+
+.confirm-section .confirm-content-right .in-your-cart{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.confirm-section .shipping-block{
+    background-color: #F4F4F4;
+    border: 2px solid #ABABAB;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.confirm-section .shipping-block h1{
+    color: #ABABAB;
+    font-size: 28px;
+}
+
+.confirm-section .shipping-block i{
+    color: #25CAAC;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.confirm-section .payment-block{
+    background-color: #F4F4F4;
+    border: 2px solid #ABABAB;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.confirm-section .payment-block h1{
+    color: #ABABAB;
+    font-size: 28px;
+}
+
+.confirm-section .payment-block i{
+    color: #25CAAC;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* CONFIRM SECTION */
+/* .confirm-section .confirm-wrapper{
+    border: 2px solid #ABABAB;
+    padding: 20px;
+} */
+
+.confirm-section .confirm-wrapper .order-summary-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.confirm-section .confirm-wrapper .confirm-order-summary .order-summary-price-detail .subtotal{
+    border: 2px solid #ABABAB;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.confirm-section .confirm-wrapper .confirm-order-summary .order-summary-price-detail .subtotal p{
+    color: #000000;
+    font-size: 20px;
+}
+
+.confirm-section .confirm-wrapper .confirm-order-summary .order-summary-price-detail .subtotal .subtotal-row1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.confirm-section .confirm-wrapper .confirm-order-summary .order-summary-price-detail .subtotal .subtotal-row2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.confirm-section .confirm-wrapper .confirm-order-summary .order-summary-price-detail .total{
+    border: 2px solid #ABABAB;
+    border-top: none;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.confirm-section .confirm-wrapper .confirm-order-summary .order-summary-price-detail .subtotal .total h1{
+    font-size: 20px;
+    color: #000000;
+}
+
+.confirm-section .confirm-wrapper .order-summary-button{
+    margin-top: 20px;
+}
+
+.confirm-section .confirm-wrapper .order-summary-button button{
+    padding: 15px 90px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    background-color: #25CAAC;
+    cursor: pointer
+}
+
+@media (max-width:426px){
+
+    .confirm-section .confirm-content-left{
+        flex: 0 0 100%;
+        padding-right: 0;
+        border-right: 0;
+    }
+    .confirm-section .confirm-content-right{
+        display: none;
+    }
+
+    .confirm-section .confirm-wrapper .order-summary-button button{
+        width: 100%;
+    }
+}

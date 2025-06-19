@@ -1,0 +1,88 @@
+/* .revenue_box, 
+.order_box, 
+.products_box, 
+.users_box{
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.revenue_box{
+    background: rgb(172, 166, 166);
+}
+
+.order_box{
+    background: rgb(172, 166, 166);
+}
+
+.products_box{
+    background: rgb(172, 166, 166);
+}
+
+.users_box{
+    background: rgb(172, 166, 166);
+}
+
+.revenue_box h5, 
+.order_box h5, 
+.products_box h5, 
+.users_box h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.revenue_box span, 
+.order_box span, 
+.products_box span, 
+.users_box span{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 2rem;
+} */
+
+.home-section{
+    padding: 130px 3% 500px 3%;
+}
+
+.home-section .home-dashboard{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-section .home-dashboard h1{
+    font-size: 24px;
+}
+
+.home-section .home-dashboard h3{
+    margin-top: 20px;
+}
+
+.home-section .home-dashboard .total-sales{
+    background-color: #dfdfdf;
+    border: 1px solid #ababab;
+    padding: 50px 70px;
+    text-align: center;
+}
+
+.home-section .home-dashboard .total-order{
+    background-color: #dfdfdf;
+    border: 1px solid #ababab;
+    padding: 50px 70px;
+    text-align: center;
+}
+
+.home-section .home-dashboard .total-product{
+    background-color: #dfdfdf;
+    border: 1px solid #ababab;
+    padding: 50px 70px;
+    text-align: center;
+}
+
+.home-section .home-dashboard .total-buyers{
+    background-color: #dfdfdf;
+    border: 1px solid #ababab;
+    padding: 50px 70px;
+    text-align: center;
+}

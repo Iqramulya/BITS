@@ -1,0 +1,212 @@
+.checkout-section{
+    padding: 130px 3%;
+}
+
+.checkout-section .checkout-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout-section .checkout-title h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.checkout-section .checkout-title .back-button button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.checkout-section .checkout-title .back-button button i{
+    font-size: 32px;
+}
+
+
+/* SHIPPING CONTENT */
+.shipping-content{
+    display: flex;
+    border: 2px solid #ABABAB;
+    padding: 0px 30px;
+}
+
+.shipping-content .shipping-content-left{
+    flex: 0 0 60%;
+    padding: 30px 30px 30px 0px;
+    border-right: 2px solid #ABABAB;
+}
+
+.shipping-content .shipping-content-right{
+    flex: 0 0 40%;
+    padding: 30px 0px 30px 30px;
+}
+
+/* .shipping-content .shipping-content-right h1{
+    margin-top: 20px;
+} */
+
+.shipping-content-right .in-your-cart{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.shipping-content .shipping-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.shipping-content .shipping-form{
+    border: 2px solid #ABABAB;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.shipping-content .shipping-form .shipping-address-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.shipping-content .shipping-form .shipping-address-wrapper .shipping-address-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.shipping-content .shipping-form .shipping-address-wrapper .shipping-address-desc p{
+    font-size: 20px;
+    color: #000000;
+}
+
+.shipping-content .shipping-form .shipping-address-wrapper .change-address-link a{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.shipping-content .shipping-form .shipping-address-wrapper .change-address-link a:hover{
+    color: #25CAAC;
+}
+/* .shipping-content .shipping-form .shipping-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.shipping-content .shipping-form .shipping-input .input-class{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shipping-content .shipping-form .shipping-input .input-class h1{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+} */
+/* 
+.shipping-content .shipping-form .shipping-input .input-class input{
+    border: none;
+    border: 1px solid #000000;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.shipping-content .shipping-form .shipping-button{
+    display: flex;
+    gap: 20px;
+} */
+
+.shipping-content .shipping-form .shipping-button .continue-button{
+    padding: 15px 100px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+/* .shipping-content .shipping-form .shipping-button .continue-button:hover{
+    transform: translateY(-3px);
+} */
+
+
+/* .shipping-content .shipping-form .shipping-button .update-address-button{
+    padding: 10px 70px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    border: none;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    cursor: pointer;
+} */
+
+
+/* PAYMENT */
+.shipping-content .payment-block{
+    background-color: #F4F4F4;
+    border: 2px solid #ABABAB;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.shipping-content .payment-block h1{
+    margin: 0;
+    font-size: 28px;
+    color: #ABABAB;
+}
+
+/* CONFIRM */
+.shipping-content .confirm-block{
+    background-color: #F4F4F4;
+    border: 2px solid #ABABAB;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.shipping-content .confirm-block h1{
+    margin: 0;
+    font-size: 28px;
+    color: #ABABAB;
+}
+
+@media (max-width:426px){
+
+    .checkout-section .checkout-title{
+        margin-bottom: 20px;
+    }
+
+    .checkout-section .checkout-title h1{
+        margin: 0;
+    }
+
+    .shipping-content .shipping-form .shipping-address-wrapper{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .shipping-content .shipping-form .shipping-address-wrapper .shipping-address-desc p{
+        font-size: 18px;
+    }
+
+    .shipping-content .shipping-content-left{
+        border-right: 0;
+        padding-right: 0;
+        flex: 0 0 100%;
+    }
+    .shipping-content-right{
+        display: none;
+    }
+}

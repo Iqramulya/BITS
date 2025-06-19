@@ -1,0 +1,223 @@
+.product-details-section{
+    padding: 130px 3%;
+}
+
+.product-details-section .product-detail-container{
+    border: 2px solid #ABABAB;
+    padding: 40px;
+}
+
+.product-details-section .product-detail-container .product-detail-content{
+    display: flex;
+}
+
+/* CONTENT-LEFT */
+.product-details-section .product-detail-container .product-detail-content .product-detail-content-left{
+    flex: 0 0 25%;
+    /* background-color: aquamarine; */
+}
+
+.product-detail-content .product-detail-content-left .product-detail-images{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.product-detail-content .product-detail-content-left .product-detail-images .main-image{
+    width: 80%;
+}
+
+.product-detail-content .product-detail-content-left .product-detail-images .main-image img{
+    width: 100%;
+    /* border: 2px solid #d2d2d2; */
+}
+
+/* CONTENT-RIGHT */
+.product-details-section .product-detail-container .product-detail-content .product-detail-content-right{
+    flex: 0 0 75%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-detail-content .product-detail-content-right .product-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-detail-content .product-detail-content-right .product-desc .product-desc-row1 h1{
+    font-size: 32px;
+}
+
+.product-detail-content .product-detail-content-right .product-desc .product-desc-row1 .product-rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.product-detail-content .product-detail-content-right .product-desc .product-desc-row1 .product-rating i{
+    color: #FDCC0D;
+    font-size: 30px;
+}
+
+.product-detail-content .product-detail-content-right .product-desc .product-desc-row1 .product-rating p{
+    font-size: 24px;
+    color: #000000;
+}
+.product-detail-content .product-detail-content-right .product-desc .product-desc-row2 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.product-detail-content .product-detail-content-right .product-desc .product-desc-row2 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.product-detail-content .product-detail-content-right .product-desc .product-desc-row2 span{
+    color: #25CAAC;
+}
+
+.product-detail-content .product-detail-content-right .product-desc .product-desc-row3 p{
+    font-size: 18px;
+    color: #000000;
+    padding-right: 20%;
+}
+
+.product-detail-content .product-detail-content-right .product-desc-button{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.product-detail-content .product-detail-content-right .product-desc-button .add-to-cart{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.product-detail-content .product-detail-content-right .product-desc-button .add-to-wishlist{
+    border: none;
+    background-color: #FF5E5E;
+    color: #ffffff;
+    border: none;
+    font-size: 30px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product-detail-content .product-detail-content-right .product-desc-button .chat-button{
+    background-color: #25CAAC;
+    color: #ffffff;
+    border: none;
+    font-size: 30px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* REVIEWS SECTION */
+.product-detail-container .product-reviews{
+    margin-top: 50px;
+    border-top: 2px solid #ABABAB;
+    padding: 40px 0px;
+}
+
+@media (max-width:426px){
+    
+    .product-details-section .product-detail-container .product-detail-content{
+        flex-direction: column;
+    }
+
+    .product-detail-content .product-detail-content-left .product-detail-images .main-image{
+        width: 90%;
+    }
+
+    .product-details-section .product-detail-container .product-detail-content .product-detail-content-right{
+        padding: 0;
+    }
+
+    .product-detail-content .product-detail-content-right .product-desc .product-desc-row1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    .product-detail-content .product-detail-content-right .product-desc .product-desc-row1 h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .product-detail-content .product-detail-content-right .product-desc .product-desc-row1 .product-rating i{
+        font-size: 24px;
+    }
+
+    .product-detail-content .product-detail-content-right .product-desc .product-desc-row1 .product-rating p{
+        font-size: 18px;
+    }
+    .product-detail-content .product-detail-content-right .product-desc .product-desc-row2 h1{
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .product-detail-content .product-detail-content-right .product-desc .product-desc-row2 p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .product-detail-content .product-detail-content-right .product-desc .product-desc-row3 p{
+        font-size: 18px;
+        padding: 0;
+        text-align: start;
+        margin-bottom: 30px;
+    }
+    
+    .product-detail-content .product-detail-content-right .product-desc-button{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .product-detail-content .product-detail-content-right .product-desc-button .add-to-cart{
+        font-size: 18px;
+        font-weight: 600;
+        padding: 15px 20px;
+    }
+
+    .product-detail-content .product-detail-content-right .product-desc-button .add-to-wishlist{
+        font-size: 30px;
+        padding: 10px 10px;
+    }
+    
+    .product-detail-content .product-detail-content-right .product-desc-button .chat-button{
+        font-size: 30px;
+        padding: 10px 10px;
+      
+    }
+
+    /* REVIEWS SECTION */
+    .product-detail-container .product-reviews{
+        margin-top: 50px;
+        padding: 30px 0px;
+    }
+    
+}

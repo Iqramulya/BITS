@@ -1,0 +1,88 @@
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('banner.2jpeg');
+}
+
+.banner-container2 .banner2{
+    /* background:linear-gradient(-55deg, #25caac 29%, #000000 29.1%, #000000 68%, #25caac 68.1%); */
+    background:linear-gradient(-55deg, #25caac 30%, #000000 30%, #000000 80%, #25caac 68.1%);
+    border-radius: 5px;
+    width: 100%;
+    height: 550px;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #0005;
+    overflow: hidden;
+}
+
+.banner-container2 .banner2 i{
+    font-size: 64px;
+}
+
+.banner-container2 .banner2 .pict1{
+    flex:1 1 390px;
+    padding:15px;
+    text-align: center;
+}
+
+.banner-container2 .banner2 .pict1 img{
+    width:75%;
+}
+
+.banner-container2 .banner2 .content{
+    flex:1 1 250px;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+}
+
+.banner-container2 .banner2 .content span{
+    color:#eee;
+    font-size: 25px;
+}
+
+.banner-container2 .banner2 .content h3{
+    color:#fff;
+    font-size: 40px;
+}
+
+.banner-container2 .banner2 .content p{
+    color:#eee;
+    font-size: 20px;
+    padding:10px 0;
+}
+
+.banner-container2 .banner2 .content .btn{
+    display: block;
+    height:40px;
+    width:150px;
+    line-height: 40px;
+    background: #25caac;
+    color:#ffffff;
+    font-weight: 600;
+    margin:5px auto;
+    text-decoration: none;
+}
+
+.banner-container2 .banner2 .pict2{
+    position: relative;
+    bottom: -10px;
+    padding:10px;
+    flex:1 1 200px;
+}
+
+.banner-container2 .banner2 .pict2 img{
+    width:70%;
+    transform: scaleX(-1); /* Ini akan membuat gambar menjadi mirror */
+}
+
+@media (max-width:768px){
+    .banner-container2 .banner2 .pict2{
+        display: none;
+    }
+}

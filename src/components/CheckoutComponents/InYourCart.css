@@ -1,0 +1,31 @@
+.checkout-product-container{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border: 2px solid #CBCBCB;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.checkout-product-container .checkout-product-image{
+    width: 80px;
+}
+
+.checkout-product-container .checkout-product-image img{
+    width: 100%;
+}
+
+.checkout-product-container .checkout-product-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.checkout-product-container .checkout-product-detail h1{
+    font-size: 20px;
+}
+
+.checkout-product-container .checkout-product-detail p{
+    font-size: 16px;
+}
